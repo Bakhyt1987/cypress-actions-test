@@ -63,7 +63,7 @@ describe("Make sure site loads", () => {
 
         cy.fixture("moviesList").then((jsonData) => {
             console.log("jsonData", jsonData.results[0].title)
-            expect(jsonData.results[0].title).to.eq("Skylines")
+            expect(jsonData.results[0].title).to.eq("Black Widow")
         })
     })
 })
