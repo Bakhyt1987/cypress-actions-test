@@ -8,6 +8,7 @@ const IMAGE_URL = "https://image.tmdb.org/t/p/"
 const BACKDROP_SIZE = "original"
 const POSTER_SIZE = "w342"
 
+// Yo
 export function MovieDetail() {
   const { id } = useParams()
   const [movie, setMovie] = useState({})
