@@ -59,11 +59,7 @@ describe("Make sure site loads", () => {
         cy.get("[data-testid=movies-list-movie]").should("have.length", 20)
         cy.get("[data-testid=movies-list-movie]").should("exist")
         cy.get("[data-testid=movies-loading-movie]").should("not.exist")
-            /* ==== Generated with Cypress Studio ==== */
-        cy.get("input").click()
-        cy.get("input").type("Won{meta+backspace}")
-        cy.get(":nth-child(1) > [data-testid=movies-list-movie] > img").click()
-            /* ==== End Cypress Studio ==== */
+
 
         cy.fixture("moviesList").then((jsonData) => {
             console.log("jsonData", jsonData.results[0].title)
