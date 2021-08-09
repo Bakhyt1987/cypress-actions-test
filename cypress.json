@@ -1,5 +1,8 @@
 {
     "projectId": "frdau6",
     "experimentalStudio": true,
-    "video": false
+    "video": false,
+    "env": {
+        "REACT_APP_MOVIE_API": "fake"
+    }
 }
